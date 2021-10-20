@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+                                        <head>
+<link rel="stylesheet" href="../stylesheet.css">                                           
+                                        </head>
+    <body class="jbody">
+        <nav class="sticky">
+            <div id="navbar" ></div>
+            <div class="dropdown">
+                <a href="../index.html" class="dropbtn">Home</a>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Charaktere</button>
+                    <div class="dropdown-content">
+                        <a href="DarthVader.html">Darth Vader</a>
+                        <a href="HanSolo.html">Han Solo</a>
+                        <a href="Leia.html">Leia Organa</a>
+                        <a href="LukeSkywalker.html">Luke Skywalker</a>
+                        <a href="Yoda.html">Yoda</a>
+                    </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">planeten</button>
+                    <div class="dropdown-content">
+                        <a href="planeten.html#tableAlderaan">Alderaan</a>
+                        <a href="planeten.html#tableBalmorra">Balmorra</a>
+                        <a href="planeten.html#tableCoruscant">Coruscant</a>
+                        <a href="planeten.html#tableDagobah">Dagobah</a>
+                        <a href="planeten.html#tableTatooine">Tatooine</a>
+                    </div>
+            </div>   
+            <div class="dropdown">
+                <button class="dropbtn">spezien</button>
+                    <div class="dropdown-content">
+                        <a href="spezies.html#tableHuman">Human</a>
+                        <a href="spezies.html#tableChiss">Chiss</a>
+                        <a href="spezies.html#tableCyborg">Cyborg</a>
+                        <a href="spezies.html#tableMiraluka">Miraluka</a>
+                        <a href="spezies.html#tableTwilek">Twilek</a>
+                        <a href="spezies.html#tableZabrak">Zabrak</a>
+                    </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">raumschiffe</button>
+                    <div class="dropdown-content">
+                        <a href="#">Link 1</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+            </div>
+            <div class="dropdown">
+                <a href="quiz.html" class="dropbtn">quiz</a>
+            </div>
+        </nav>
+<footer id="jfed" class="jfoot">
+     
+     
+
+<table border="0px" bordercolor="#FFE81F">
+<tr>
+    <td id="tableHuman" ><a href="spezHuman.html"><dd class="ja" >Mensch</dd></a></td>
+    <td id="tableHuman"><a href="spezHuman.html"><img class="jimg" src="spezies/spezHuman.jpg"></a></td>
+    </tr>
+<!-- Hier wird die Zweite Reihe der Tabelle erstellt mit selben Vorgaben wie die Erste -->
+<tr> 
+    <td id="tableChiss"><a href="spezChiss.html"><dd class="ja">Chiss </dd></a></td>
+    <td id="tableChiss"><a href="spezChiss.html"><img class="jimg" src="spezies/spezChiss.jpg"></a></td>
+    
+</tr>
+<!-- Dritte Reihe der Planetentabelle -->
+<tr>
+    <td id="tableCyborg"><a href="spezCyborg.html"><dd class="ja">Cyborg</dd></a></td>
+    <td id="tableCyborg"><a href="spezCyborg.html"><img class="jimg" src="spezies/spezCyborg.jpg"</a></td>
+    </tr>    
+<!-- Vierte Reihe der Tabelle -->
+<tr> 
+    <td id="tableMiraluka"><a href="spezMiraluka.html"><dd class="ja">Miraluka</dd></a></td>
+    <td id="tableMiraluka"><a href="spezMiraluka.html"><img class="jimg" src="spezies/spezMiraluka.jpg"></a></td>
+    
+</tr>
+<!-- Fünfte Reihe der Tabelle -->
+<tr>
+<td id="tableMirialan"><a href="spezMirialan.html"><dd class="ja">Mirialan</dd></a></td>
+<td id="tableMirialan"><a href="spezMirialan.html"><img class="jimg" src="spezies/spezMirialan.png"</a></td>
+</tr>
+<!-- Sechste Reihe der Tabelle -->
+<tr>
+<td id="tableTwilek"><a href="spezTwilek.html"><dd class="ja">Twi'lek</dd></a></td>
+<td id="tableTwilek"><a href="spezTwilek.html"><img class="jimg" src="spezies/spezTwilek.jpg"</a></td>
+</tr>
+<!-- Siebte Reihe der Tabelle -->
+<tr>
+<td id="tableZabrak"><a href="spezZabrak.html"><dd class="ja">Zabrak</dd></a></td>
+<td id="tableZabrak"><a href="spezZabrak.html"><img class="jimg" src="spezies/spezZabrak.jpg"</a></td>
+</tr>
+<!-- Tabelle wird jetzt Beendet -->    
+</table>                                          
+<!-- Tabelle wurde beendet -->
+
+                                            
+                                            
+</footer>
+
+<script>
+window.onscroll = function() {myFunction()};
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+function myFunction() {
+if (window.pageYOffset >= sticky) {
+navbar.classList.add("sticky") } 
+else {
+navbar.classList.remove("sticky"); }
+}
+</script>
+                                        </body>
+                                        </html>

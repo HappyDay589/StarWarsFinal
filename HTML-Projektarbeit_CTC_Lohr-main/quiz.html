@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+    <head lang="de">
+        <title>
+            StarWars Wiki
+        </title>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Ein Projekt für die CTC-Lohr über das StarWars Universum"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css">
+        
+<!-- ===== ===== ===== ===== ===== FAVICON ===== ===== ===== ===== ===== -->
+    </head>
+    <body class="bdy">
+        <header>
+			<img class="title" src="./Images/Backgrounds/StarWars_Title.png" alt="Star Wars Title">
+        </header>
+        <nav class="sticky">
+            <div id="navbar" ></div>
+            <div class="dropdown">
+                <a href="home.html" class="dropbtn">Home</a>
+            </div>
+            <div class="dropdown">
+                <a href="home.html" class="dropbtn">Charaktere</a>
+                    <div class="dropdown-content">
+                        <a href="DarthVader.html">Darth Vader</a>
+                        <a href="HanSolo.html">Han Solo</a>
+                        <a href="Leia.html">Leia Organa</a>
+                        <a href="LukeSkywalker.html">Luke Skywalker</a>
+                        <a href="Yoda.html">Yoda</a>
+                    </div>
+            </div>
+            <div class="dropdown">
+                <a href="home.html" class="dropbtn">planeten</a>
+                    <div class="dropdown-content">
+                        <a href="planetAlderaan.html">Alderaan</a>
+                        <a href="planetBalmorra.html">Balmorra</a>
+                        <a href="planetCoruscant.html">Coruscant</a>
+                        <a href="planetDagobah.html">Dagobah</a>
+                        <a href="planetTatooine.html">Tatooine</a>
+                    </div>
+            </div>   
+            <div class="dropdown">
+                <a href="home.html" class="dropbtn">spezien</a>
+                    <div class="dropdown-content">
+                        <a href="spezHuman.html">Human</a>
+                        <a href="spezChiss.html">Chiss</a>
+                        <a href="spezCyborg.html">Cyborg</a>
+                        <a href="spezMiraluka.html">Miraluka</a>
+                        <a href="spezMirialan.html">Miraluka</a>
+                        <a href="spezTwilek.html">Twilek</a>
+                        <a href="spezZabrak.html">Zabrak</a>
+                    </div>
+            </div>
+            <div class="dropdown">
+                <a href="home.html" class="dropbtn">Raumschiffe</a>
+                    <div class="dropdown-content">
+                        <a href="MillenniumFalcon.html">Millennium Falcon</a>
+                        <a href="XWing.html">X-Wing</a>
+                        <a href="Executor.html">Executor</a>
+                        <a href="Sternzerstoerer.html">Sternenzerstörer</a>
+                        <a href="jedi.html">Jedi Abfangjäger</a>
+                    </div>
+            </div>
+            <div class="dropdown">
+                <a href="quiz.html" class="dropbtn">quiz</a>
+            </div>
+        </nav>
+        <form>
+            <div class="divq" id="Q1">
+                <label class="question" id="question1">Frage 1: </label>
+                <input type="radio" id="q1a1" name="frage1">
+                <label for="q1a1">Antwort 1: </label>
+                <input type="radio" id="q1a2" name="frage1">
+                <label for="q1a2">Antwort 2: </label>
+                <input type="radio" id="q1a3" name="frage1">
+                <label for="q1a3">Antwort 3: </label>
+                <input type="radio" id="q1a4" name="frage1">
+                <label for="q1a4">Antwort 4: </label>
+            </div>
+            <div class="divq" id="Q2">
+                <label class="question" id="question2">Frage 2: </label>
+                <input type="radio" id="q2a1" name="frage2">
+                <label for="q2a1">Antwort 1: </label>
+                <input type="radio" id="q2a2" name="frage2">
+                <label for="q2a2">Antwort 2: </label>
+                <input type="radio" id="q2a3" name="frage2">
+                <label for="q2a3">Antwort 3: </label>
+                <input type="radio" id="q2a4" name="frage2">
+                <label for="q2a4">Antwort 4: </label>
+            </div>
+            <div class="divq" id="Q3">
+                <label class="question" id="question3">Frage 3: </label>
+                <input type="radio" id="q3a1" name="frage3">
+                <label for="q3a1">Antwort 1: </label>
+                <input type="radio" id="q3a2" name="frage3">
+                <label for="q3a2">Antwort 2: </label>
+                <input type="radio" id="q3a3" name="frage3">
+                <label for="q3a3">Antwort 3: </label>
+                <input type="radio" id="q3a4" name="frage3">
+                <label for="q3a4">Antwort 4: </label>
+            </div>
+            <div class="divq" id="Q4">
+                <label class="question" id="question4">Frage 4: </label>
+                <input type="radio" id="q4a1" name="frage4">
+                <label for="q4a1">Antwort 1: </label>
+                <input type="radio" id="q4a2" name="frage4">
+                <label for="q4a2">Antwort 2: </label>
+                <input type="radio" id="q4a3" name="frage4">
+                <label for="q4a3">Antwort 3: </label>
+                <input type="radio" id="q4a4" name="frage4">
+                <label for="q4a4">Antwort 4: </label>
+            </div>
+            <div class="divq" id="Q5">
+                <label class="question" id="question5">Frage 5: </label>
+                <input type="radio" id="q5a1" name="frage5">
+                <label for="q5a1">Antwort 1: </label>
+                <input type="radio" id="q5a2" name="frage5">
+                <label for="q5a2">Antwort 2: </label>
+                <input type="radio" id="q5a3" name="frage5">
+                <label for="q5a3">Antwort 3: </label>
+                <input type="radio" id="q5a4" name="frage5">
+                <label for="q5a4">Antwort 4: </label>
+            </div>
+            <div class="divq" id="Q6">
+                <label class="question" id="question6">Frage 6: </label>
+                <input type="radio" id="q6a1" name="frage6">
+                <label for="q6a1">Antwort 1: </label>
+                <input type="radio" id="q6a2" name="frage6">
+                <label for="q6a2">Antwort 2: </label>
+                <input type="radio" id="q6a3" name="frage6">
+                <label for="q6a3">Antwort 3: </label>
+                <input type="radio" id="q6a4" name="frage6">
+                <label for="q6a4">Antwort 4: </label>
+            </div>
+            <div class="divq" id="Q7">
+                <label class="question" id="question7">Frage 7: </label>
+                <input type="radio" id="q7a1" name="frage7">
+                <label for="q7a1">Antwort 1: </label>
+                <input type="radio" id="q7a2" name="frage7">
+                <label for="q7a2">Antwort 2: </label>
+                <input type="radio" id="q7a3" name="frage7">
+                <label for="q7a3">Antwort 3: </label>
+                <input type="radio" id="q7a4" name="frage7">
+                <label for="q7a4">Antwort 4: </label>
+            </div>
+            <div class="divq" id="Q8">
+                <label class="question" id="question8">Frage 8: </label>
+                <input type="radio" id="q8a1" name="frage8">
+                <label for="q8a1">Antwort 1: </label>
+                <input type="radio" id="q8a2" name="frage8">
+                <label for="q8a2">Antwort 2: </label>
+                <input type="radio" id="q8a3" name="frage8">
+                <label for="q8a3">Antwort 3: </label>
+                <input type="radio" id="q8a4" name="frage8">
+                <label for="q8a4">Antwort 4: </label>
+            </div>
+            <div class="divq" id="Q9">
+                <label class="question" id="question9">Frage 9: </label>
+                <input type="radio" id="q9a1" name="frage9">
+                <label for="q9a1">Antwort 1: </label>
+                <input type="radio" id="q9a2" name="frage9">
+                <label for="q9a2">Antwort 2: </label>
+                <input type="radio" id="q9a3" name="frage9">
+                <label for="q9a3">Antwort 3: </label>
+                <input type="radio" id="q9a4" name="frage9">
+                <label for="q9a4">Antwort 4: </label>
+            </div>
+            <div class="divq" id="Q10">
+                <label class="question" id="question10">Frage 10: </label>
+                <input type="radio" id="q10a1" name="frage10">
+                <label for="q10a1">Antwort 1: </label>
+                <input type="radio" id="q10a2" name="frage10">
+                <label for="q10a2">Antwort 2: </label>
+                <input type="radio" id="q10a3" name="frage10">
+                <label for="q10a3">Antwort 3: </label>
+                <input type="radio" id="q10a4" name="frage10">
+                <label for="q10a4">Antwort 4: </label>
+            </div>
+            <div>
+                <input type="button" class="submit" value="submit" id="btnsubmit">
+            </div>
+        </form>
+        <footer>
+            <div>
+                <p class="swfont">
+                impressum: <br>
+                ctc-lohr <br>
+                89231 neu-ulm <br>
+                marlene-dietrich-straße 1 <br>
+                0731 984910
+                </p>
+                <div class="socials">
+                    <img class="socials" src="./Images/Socials/social_instagram.png" alt="Instagram Soziales Netwerkbild">
+                    <img class="socials" src="./Images/Socials/social_twitter.png" alt="Instagram Soziales Netwerkbild">
+                    <img class="socials" src="./Images/Socials/social_reddit.png" alt="Instagram Soziales Netwerkbild">
+                    <img class="socials" src="./Images/Socials/social_youtube.png" alt="Instagram Soziales Netwerkbild">
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script src="script.js"></script> 
+</html>
