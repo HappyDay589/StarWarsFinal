@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-    <head lang="de">
+<html lang="de">
+    <head>
         <title>
             StarWars Wiki
         </title>
@@ -10,18 +10,33 @@
         <link rel="stylesheet" href="stylesheet.css">
         
 <!-- ===== ===== ===== ===== ===== FAVICON ===== ===== ===== ===== ===== -->
+        <link rel="apple-touch-icon" sizes="57x57" href="./Images/Favicons/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./Images/Favicons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./Images/Favicons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./Images/Favicons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./Images/Favicons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./Images/Favicons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./Images/Favicons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./Images/Favicons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./Images/Favicons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./Images/Favicons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./Images/Favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./Images/Favicons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./Images/Favicons/favicon-16x16.png">
+        <link rel="manifest" href="./Images/Favicons/manifest.json">
+        <meta name="msapplication-TileColor" content="#FFDE06">
+        <meta name="msapplication-TileImage" content="./Images/Favicons/ms-icon-144x144.png">
+        <meta name="theme-color" content="#FFDE06">
+<!-- ===== ===== ===== ===== ===== FAVICON ===== ===== ===== ===== ===== -->
     </head>
     <body class="bdy">
-        <header>
-			<img class="title" src="./Images/Backgrounds/StarWars_Title.png" alt="Star Wars Title">
-        </header>
         <nav class="sticky">
             <div id="navbar" ></div>
             <div class="dropdown">
-                <a href="home.html" class="dropbtn">Home</a>
+                <a href="index.html" class="dropbtn">Home</a>
             </div>
             <div class="dropdown">
-                <a href="home.html" class="dropbtn">Charaktere</a>
+                <a href="charaktere.html" class="dropbtn">Charaktere</a>
                     <div class="dropdown-content">
                         <a href="DarthVader.html">Darth Vader</a>
                         <a href="HanSolo.html">Han Solo</a>
@@ -31,7 +46,7 @@
                     </div>
             </div>
             <div class="dropdown">
-                <a href="home.html" class="dropbtn">planeten</a>
+                <a href="planeten.html" class="dropbtn">planeten</a>
                     <div class="dropdown-content">
                         <a href="planetAlderaan.html">Alderaan</a>
                         <a href="planetBalmorra.html">Balmorra</a>
@@ -41,19 +56,19 @@
                     </div>
             </div>   
             <div class="dropdown">
-                <a href="home.html" class="dropbtn">spezien</a>
+                <a href="spezies.html" class="dropbtn">spezien</a>
                     <div class="dropdown-content">
                         <a href="spezHuman.html">Human</a>
                         <a href="spezChiss.html">Chiss</a>
                         <a href="spezCyborg.html">Cyborg</a>
                         <a href="spezMiraluka.html">Miraluka</a>
-                        <a href="spezMirialan.html">Miraluka</a>
-                        <a href="spezTwilek.html">Twilek</a>
+                        <a href="spezMirialan.html">Mirialan</a>
+                        <a href="spezTwilek.html">Twi'lek</a>
                         <a href="spezZabrak.html">Zabrak</a>
                     </div>
             </div>
             <div class="dropdown">
-                <a href="home.html" class="dropbtn">Raumschiffe</a>
+                <a href="raumschiffe.html" class="dropbtn">Raumschiffe</a>
                     <div class="dropdown-content">
                         <a href="MillenniumFalcon.html">Millennium Falcon</a>
                         <a href="XWing.html">X-Wing</a>
@@ -66,7 +81,122 @@
                 <a href="quiz.html" class="dropbtn">quiz</a>
             </div>
         </nav>
-        
+
+        <form>
+            <div class="divq" id="Q1">
+                <label class="question" id="question1">Frage 1: Zu Welcher Planetenklasse gehört Aldaran an?</label>
+                <div class="QA"><input type="radio" id="q1a1" name="frage1">
+                <label for="q1a1">Gasriese </label></div>
+                <div class="QA"><input type="radio" id="q1a2" name="frage1">
+                <label for="q1a2">Terrestrisch </label></div>
+                <div class="QA"><input type="radio" id="q1a3" name="frage1">
+                <label for="q1a3">Sonne </label></div>
+                <div class="QA"><input type="radio" id="q1a4" name="frage1">
+                <label for="q1a4">Mond </label></div>
+            </div>
+            <div class="divq" id="Q2">
+                <label class="question" id="question2">Frage 2: Wie viele Einwohner hat Aldaran? </label>
+                <div class="QA"><input type="radio" id="q2a1" name="frage2">
+                <label for="q2a1">2 Milliarden </label></div>
+                <div class="QA"><input type="radio" id="q2a2" name="frage2">
+                <label for="q2a2">160 Tausend </label></div>
+                <div class="QA"><input type="radio" id="q2a3" name="frage2">
+                <label for="q2a3">14 Milliarden </label></div>
+                <div class="QA"><input type="radio" id="q2a4" name="frage2">
+                <label for="q2a4">Keine </label></div>
+            </div>
+            <div class="divq" id="Q3">
+                <label class="question" id="question3">Frage 3: Auf welchen Planeten starb Yoda </label>
+                <div class="QA"><input type="radio" id="q3a1" name="frage3">
+                <label for="q3a1">Tatooine </label></div>
+                <div class="QA"><input type="radio" id="q3a2" name="frage3">
+                <label for="q3a2">Balmorra </label></div>
+                <div class="QA"><input type="radio" id="q3a3" name="frage3">
+                <label for="q3a3">Dagobah </label></div>
+                <div class="QA"><input type="radio" id="q3a4" name="frage3">
+                <label for="q3a4">Coruscant </label></div>
+            </div>
+            <div class="divq" id="Q4">
+                <label class="question" id="question4">Frage 4: Wie viele Monde hat Tatooine? </label>
+                <div class="QA"><input type="radio" id="q4a1" name="frage4">
+                <label for="q4a1">Keine </label></div>
+                <div class="QA"><input type="radio" id="q4a2" name="frage4">
+                <label for="q4a2">1 </label></div>
+                <div class="QA"><input type="radio" id="q4a3" name="frage4">
+                <label for="q4a3">2 </label></div>
+                <div class="QA"><input type="radio" id="q4a4" name="frage4">
+                <label for="q4a4">3 </label></div>
+            </div>
+            <div class="divq" id="Q5">
+                <label class="question" id="question5">Frage 5: Welche Sprache sprechen die Chiss? </label>
+                <div class="QA"><input type="radio" id="q5a1" name="frage5">
+                <label for="q5a1">Chi'isa </label></div>
+                <div class="QA"><input type="radio" id="q5a2" name="frage5">
+                <label for="q5a2">Die Sprache der Macht </label></div>
+                <div class="QA"><input type="radio" id="q5a3" name="frage5">
+                <label for="q5a3">Cheunh </label></div>
+                <div class="QA"><input type="radio" id="q5a4" name="frage5">
+                <label for="q5a4">Klingonisch </label></div>
+            </div>
+            <div class="divq" id="Q6">
+                <label class="question" id="question6">Frage 6: Was ist ein Hauptmerkmal der Miraluka? </label>
+                <div class="QA"><input type="radio" id="q6a1" name="frage6">
+                <label for="q6a1">Sie gehören ab ihrer Geburt dem Imperium an  </label></div>
+                <div class="QA"><input type="radio" id="q6a2" name="frage6">
+                <label for="q6a2">Sie paaren sich nur im Winter </label></div>
+                <div class="QA"><input type="radio" id="q6a3" name="frage6">
+                <label for="q6a3">Miraluka Frauen sind körperlich stärker als die Männer </label></div>
+               <div class="QA"><input type="radio" id="q6a4" name="frage6">
+               <label for="q6a4">Sie sind Blind und haben eine starke Bindung zur Macht </label></div>
+            </div>
+            <div class="divq" id="Q7">
+                <label class="question" id="question7">Wie kommunizieren Twi'Leks hauptsächlich miteinander </label>
+                <div class="QA"><input type="radio" id="q7a1" name="frage7">
+                <label for="q7a1">Da sie nicht sprechen können, über Handzeichen </label></div>
+                <div class="QA"><input type="radio" id="q7a2" name="frage7">
+                <label for="q7a2">Über ihre Lekkus </label></div>
+                <div class="QA"><input type="radio" id="q7a3" name="frage7">
+                <label for="q7a3">Ihr Geruch passt sich ihrer Laune an </label></div>
+                <div class="QA"><input type="radio" id="q7a4" name="frage7">
+                <label for="q7a4">Indem sie miteinander sprechen </label></div>
+            </div>
+            <div class="divq" id="Q8">
+                <label class="question" id="question8">Frage 8: Was machen Twi'Lekische Männer aus der Tradition heraus? </label>
+                <div class="QA"><input type="radio" id="q8a1" name="frage8">
+                <label for="q8a1">Sie trinken jeden morgen ein Glas Mondschnaps </label></div>
+                <div class="QA"><input type="radio" id="q8a2" name="frage8">
+                <label for="q8a2">Sie kämpfen gegeneinander um die Frau ihrer Träume </label></div>
+                <div class="QA"><input type="radio" id="q8a3" name="frage8">
+                <label for="q8a3">Sie schärfen sich ihre Zähne spitz </label></div>
+                <div class="QA"><input type="radio" id="q8a4" name="frage8">
+                <label for="q8a4">Jedes Dorf opfert jährlich ein neugeborenes zu Ehren des Twi'Lekischen Gottes </label></div>
+            </div>
+            <div class="divq" id="Q9">
+                <label class="question" id="question9">Frage 9: Aus wie viel Prozent Sumpf besteht Balmorra? </label>
+                <div class="QA"><input type="radio" id="q9a1" name="frage9">
+                <label for="q9a1">99 Prozent </label></div>
+                <div class="QA"><input type="radio" id="q9a2" name="frage9">
+                <label for="q9a2">1 Prozent </label></div>
+                <div class="QA"><input type="radio" id="q9a3" name="frage9">
+                <label for="q9a3">76 Prozent </label></div>
+                <div class="QA"><input type="radio" id="q9a4" name="frage9">
+                <label for="q9a4">8 Prozent </label></div>
+            </div>
+            <div class="divq" id="Q10">
+                <label class="question" id="question10">Frage 10: Wer war einer der ersten Spezies, welche die Raumfahrt für sich entdeckte? </label>
+                <div class="QA"><input type="radio" id="q10a1" name="frage10">
+                <label for="q10a1">Die Menschen </label></div>
+                <div class="QA"><input type="radio" id="q10a2" name="frage10">
+                <label for="q10a2">Die Twilek </label></div>
+                <div class="QA"><input type="radio" id="q10a3" name="frage10">
+                <label for="q10a3">Die Zabrak </label></div>
+                <div class="QA"><input type="radio" id="q10a4" name="frage10">
+                <label for="q10a4">Die Chiss </label></div>
+            </div>
+            <div>
+                <input type="button" class="submit" value="submit" id="btnsubmit">
+            </div>
+        </form>
         <footer>
             <div>
                 <p class="swfont">
@@ -77,13 +207,13 @@
                 0731 984910
                 </p>
                 <div class="socials">
-                    <img class="socials" src="./Images/Socials/social_instagram.png" alt="Instagram Soziales Netwerkbild">
-                    <img class="socials" src="./Images/Socials/social_twitter.png" alt="Instagram Soziales Netwerkbild">
-                    <img class="socials" src="./Images/Socials/social_reddit.png" alt="Instagram Soziales Netwerkbild">
-                    <img class="socials" src="./Images/Socials/social_youtube.png" alt="Instagram Soziales Netwerkbild">
+                    <a href="https://www.instagram.com/starwars"><img class="socials" src="./Images/Socials/social_instagram.png" alt="Instagram Soziales Netwerkbild"></a>
+                    <a href="https://twitter.com/starwars"><img class="socials" src="./Images/Socials/social_twitter.png" alt="Instagram Soziales Netwerkbild"></a>
+                    <a href="https://www.reddit.com/r/StarWars/"><img class="socials" src="./Images/Socials/social_reddit.png" alt="Instagram Soziales Netwerkbild"></a>
+                    <a href="https://www.youtube.com/user/starwars"><img class="socials" src="./Images/Socials/social_youtube.png" alt="Instagram Soziales Netwerkbild"></a>
                 </div>
             </div>
         </footer>
+        <script src="scriptquiz.js"></script> 
     </body>
-    <script src="script.js"></script> 
 </html>
