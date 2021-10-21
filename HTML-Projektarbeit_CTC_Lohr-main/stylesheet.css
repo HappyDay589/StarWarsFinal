@@ -224,7 +224,9 @@ article {width: 50%; color: #FFFFFF;  display: inline-block; margin-right: 10%; 
     width: 100%;
     background-image: url(./Images/Planeten/TatooineAtmo.jpg);
     background-size: cover; }
-
+#tableEmpty {  
+    width: 100%;
+     }
 #tableHuman {
    width: 100%;
     background-image: url(./Images/Spezies/spezHumanBG.jpg);
