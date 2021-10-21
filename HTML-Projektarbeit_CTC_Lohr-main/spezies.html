@@ -1,16 +1,41 @@
 <!DOCTYPE html>
-<html>
-                                        <head>
-<link rel="stylesheet" href="../stylesheet.css">                                           
-                                        </head>
-    <body class="jbody">
+<html lang="de">
+    <head>
+        <title>
+            StarWars Wiki
+        </title>
+        <meta charset="utf-8"/>
+        <meta name="description" content="Ein Projekt für die CTC-Lohr über das StarWars Universum"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="stylesheet.css">
+        
+<!-- ===== ===== ===== ===== ===== FAVICON ===== ===== ===== ===== ===== -->
+        <link rel="apple-touch-icon" sizes="57x57" href="./Images/Favicons/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./Images/Favicons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./Images/Favicons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./Images/Favicons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./Images/Favicons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./Images/Favicons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./Images/Favicons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./Images/Favicons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./Images/Favicons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./Images/Favicons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./Images/Favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./Images/Favicons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./Images/Favicons/favicon-16x16.png">
+        <link rel="manifest" href="./Images/Favicons/manifest.json">
+        <meta name="msapplication-TileColor" content="#FFDE06">
+        <meta name="msapplication-TileImage" content="./Images/Favicons/ms-icon-144x144.png">
+        <meta name="theme-color" content="#FFDE06">
+    </head>
+    <body class="bdy">
         <nav class="sticky">
             <div id="navbar" ></div>
             <div class="dropdown">
-                <a href="../index.html" class="dropbtn">Home</a>
+                <a href="index.html" class="dropbtn">Home</a>
             </div>
             <div class="dropdown">
-                <button class="dropbtn">Charaktere</button>
+                <a href="charaktere.html" class="dropbtn">Charaktere</a>
                     <div class="dropdown-content">
                         <a href="DarthVader.html">Darth Vader</a>
                         <a href="HanSolo.html">Han Solo</a>
@@ -20,97 +45,94 @@
                     </div>
             </div>
             <div class="dropdown">
-                <button class="dropbtn">planeten</button>
+                <a href="planeten.html" class="dropbtn">planeten</a>
                     <div class="dropdown-content">
-                        <a href="planeten.html#tableAlderaan">Alderaan</a>
-                        <a href="planeten.html#tableBalmorra">Balmorra</a>
-                        <a href="planeten.html#tableCoruscant">Coruscant</a>
-                        <a href="planeten.html#tableDagobah">Dagobah</a>
-                        <a href="planeten.html#tableTatooine">Tatooine</a>
+                        <a href="planetAlderaan.html">Alderaan</a>
+                        <a href="planetBalmorra.html">Balmorra</a>
+                        <a href="planetCoruscant.html">Coruscant</a>
+                        <a href="planetDagobah.html">Dagobah</a>
+                        <a href="planetTatooine.html">Tatooine</a>
                     </div>
             </div>   
             <div class="dropdown">
-                <button class="dropbtn">spezien</button>
+                <a href="spezies.html" class="dropbtn">spezien</a>
                     <div class="dropdown-content">
-                        <a href="spezies.html#tableHuman">Human</a>
-                        <a href="spezies.html#tableChiss">Chiss</a>
-                        <a href="spezies.html#tableCyborg">Cyborg</a>
-                        <a href="spezies.html#tableMiraluka">Miraluka</a>
-                        <a href="spezies.html#tableTwilek">Twilek</a>
-                        <a href="spezies.html#tableZabrak">Zabrak</a>
+                        <a href="spezHuman.html">Human</a>
+                        <a href="spezChiss.html">Chiss</a>
+                        <a href="spezCyborg.html">Cyborg</a>
+                        <a href="spezMiraluka.html">Miraluka</a>
+                        <a href="spezMirialan.html">Miraluka</a>
+                        <a href="spezTwilek.html">Twilek</a>
+                        <a href="spezZabrak.html">Zabrak</a>
                     </div>
             </div>
             <div class="dropdown">
-                <button class="dropbtn">raumschiffe</button>
+                <a href="raumschiffe.html" class="dropbtn">Raumschiffe</a>
                     <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
+                        <a href="MillenniumFalcon.html">Millennium Falcon</a>
+                        <a href="XWing.html">X-Wing</a>
+                        <a href="Executor.html">Executor</a>
+                        <a href="Sternzerstoerer.html">Sternenzerstörer</a>
+                        <a href="jedi.html">Jedi Abfangjäger</a>
                     </div>
             </div>
             <div class="dropdown">
                 <a href="quiz.html" class="dropbtn">quiz</a>
             </div>
         </nav>
-<footer id="jfed" class="jfoot">
-     
-     
-
-<table border="0px" bordercolor="#FFE81F">
-<tr>
-    <td id="tableHuman" ><a href="spezHuman.html"><dd class="ja" >Mensch</dd></a></td>
-    <td id="tableHuman"><a href="spezHuman.html"><img class="jimg" src="spezies/spezHuman.jpg"></a></td>
-    </tr>
-<!-- Hier wird die Zweite Reihe der Tabelle erstellt mit selben Vorgaben wie die Erste -->
-<tr> 
-    <td id="tableChiss"><a href="spezChiss.html"><dd class="ja">Chiss </dd></a></td>
-    <td id="tableChiss"><a href="spezChiss.html"><img class="jimg" src="spezies/spezChiss.jpg"></a></td>
-    
-</tr>
-<!-- Dritte Reihe der Planetentabelle -->
-<tr>
-    <td id="tableCyborg"><a href="spezCyborg.html"><dd class="ja">Cyborg</dd></a></td>
-    <td id="tableCyborg"><a href="spezCyborg.html"><img class="jimg" src="spezies/spezCyborg.jpg"</a></td>
-    </tr>    
-<!-- Vierte Reihe der Tabelle -->
-<tr> 
-    <td id="tableMiraluka"><a href="spezMiraluka.html"><dd class="ja">Miraluka</dd></a></td>
-    <td id="tableMiraluka"><a href="spezMiraluka.html"><img class="jimg" src="spezies/spezMiraluka.jpg"></a></td>
-    
-</tr>
-<!-- Fünfte Reihe der Tabelle -->
-<tr>
-<td id="tableMirialan"><a href="spezMirialan.html"><dd class="ja">Mirialan</dd></a></td>
-<td id="tableMirialan"><a href="spezMirialan.html"><img class="jimg" src="spezies/spezMirialan.png"</a></td>
-</tr>
-<!-- Sechste Reihe der Tabelle -->
-<tr>
-<td id="tableTwilek"><a href="spezTwilek.html"><dd class="ja">Twi'lek</dd></a></td>
-<td id="tableTwilek"><a href="spezTwilek.html"><img class="jimg" src="spezies/spezTwilek.jpg"</a></td>
-</tr>
-<!-- Siebte Reihe der Tabelle -->
-<tr>
-<td id="tableZabrak"><a href="spezZabrak.html"><dd class="ja">Zabrak</dd></a></td>
-<td id="tableZabrak"><a href="spezZabrak.html"><img class="jimg" src="spezies/spezZabrak.jpg"</a></td>
-</tr>
-<!-- Tabelle wird jetzt Beendet -->    
-</table>                                          
-<!-- Tabelle wurde beendet -->
-
-                                            
-                                            
-</footer>
-
-<script>
-window.onscroll = function() {myFunction()};
-var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-function myFunction() {
-if (window.pageYOffset >= sticky) {
-navbar.classList.add("sticky") } 
-else {
-navbar.classList.remove("sticky"); }
-}
-</script>
-                                        </body>
-                                        </html>
+        <table>
+            <tr>
+                <td id="tableHuman" ><a href="spezHuman.html"><h3>Mensch</h3></a></td>
+                <td><a href="spezHuman.html"><img class="jimg" src="./Images/Spezies/spezHuman.jpg" alt="Mensch"></a>
+                </tr>
+            <!-- Hier wird die Zweite Reihe der Tabelle erstellt mit selben Vorgaben wie die Erste -->
+            <tr> 
+                <td id="tableChiss"><a href="spezChiss.html"><h3>Chiss</h3></a></td>
+                <td><a href="spezChiss.html"><img class="jimg" src="./Images/Spezies/spezChiss.jpg" alt="Chiss"></a></td>
+            </tr>
+            <!-- Dritte Reihe der Planetentabelle -->
+            <tr>
+                <td id="tableCyborg"><a href="spezCyborg.html"><h3>Cyborg</h3></a></td>
+                <td><a href="spezCyborg.html"><img class="jimg" src="./Images/Spezies/spezCyborg.jpg" alt="Cyborg"></a></td>
+                </tr>    
+            <!-- Vierte Reihe der Tabelle -->
+            <tr> 
+                <td id="tableMiraluka"><a href="spezMiraluka.html"><h3>Miraluka</h3></a></td>
+                <td><a href="spezMiraluka.html"><img class="jimg" src="./Images/Spezies/spezMiraluka.jpg" alt="Miraluka"></a></td>
+            </tr>
+            <!-- Fünfte Reihe der Tabelle -->
+            <tr>
+                <td id="tableMirialan"><a href="spezMirialan.html"><h3>Mirialan</h3></a></td>
+                <td><a href="spezMirialan.html"><img class="jimg" src="./Images/Spezies/spezMirialan.png" alt="Mirialan"></a></td>
+            </tr>
+            <!-- Sechste Reihe der Tabelle -->
+            <tr>
+                <td id="tableTwilek"><a href="spezTwilek.html"><h3>Twi'lek</h3></a></td>
+                <td><a href="spezTwilek.html"><img class="jimg" src="./Images/Spezies/spezTwilek.jpg" alt="Twilek"></a></td>
+            </tr>
+            <!-- Siebte Reihe der Tabelle -->
+            <tr>
+                <td id="tableZabrak"><a href="spezZabrak.html"><h3>zabrak</h3></a></td>
+                <td><a href="spezZabrak.html"><img class="jimg" src="./Images/Spezies/spezZabrak.jpg" alt="Zabrak"></a></td>
+            </tr> 
+        </table>
+        <footer>
+            <div>
+                <p class="swfont">
+                impressum: <br>
+                ctc-lohr <br>
+                89231 neu-ulm <br>
+                marlene-dietrich-straße 1 <br>
+                0731 984910
+                </p>
+                <div class="socials">
+                    <a href="https://www.instagram.com/starwars"><img class="socials" src="./Images/Socials/social_instagram.png" alt="Instagram Soziales Netwerkbild"></a>
+                    <a href="https://twitter.com/starwars"><img class="socials" src="./Images/Socials/social_twitter.png" alt="Instagram Soziales Netwerkbild"></a>
+                    <a href="https://www.reddit.com/r/StarWars/"><img class="socials" src="./Images/Socials/social_reddit.png" alt="Instagram Soziales Netwerkbild"></a>
+                    <a href="https://www.youtube.com/user/starwars"><img class="socials" src="./Images/Socials/social_youtube.png" alt="Instagram Soziales Netwerkbild"></a>
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script> 
+    </body>
+</html>

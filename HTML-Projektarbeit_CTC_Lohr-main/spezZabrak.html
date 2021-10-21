@@ -7,18 +7,35 @@
         <meta charset="utf-8"/>
         <meta name="description" content="Ein Projekt für die CTC-Lohr über das StarWars Universum"/>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href=../stylesheet.css>
+        <link rel="stylesheet" href="stylesheet.css">
         
 <!-- ===== ===== ===== ===== ===== FAVICON ===== ===== ===== ===== ===== -->
+        <link rel="apple-touch-icon" sizes="57x57" href="./Images/Favicons/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="./Images/Favicons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="./Images/Favicons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="./Images/Favicons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="./Images/Favicons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="./Images/Favicons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="./Images/Favicons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="./Images/Favicons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="./Images/Favicons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="./Images/Favicons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="./Images/Favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="./Images/Favicons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="./Images/Favicons/favicon-16x16.png">
+        <link rel="manifest" href="./Images/Favicons/manifest.json">
+        <meta name="msapplication-TileColor" content="#FFDE06">
+        <meta name="msapplication-TileImage" content="./Images/Favicons/ms-icon-144x144.png">
+        <meta name="theme-color" content="#FFDE06">
     </head>
     <body class="bdy">
         <nav class="sticky">
             <div id="navbar" ></div>
             <div class="dropdown">
-                <a href="../index.html" class="dropbtn">Home</a>
+                <a href="index.html" class="dropbtn">Home</a>
             </div>
             <div class="dropdown">
-                <button class="dropbtn">Charaktere</button>
+                <a href="charaktere.html" class="dropbtn">Charaktere</a>
                     <div class="dropdown-content">
                         <a href="DarthVader.html">Darth Vader</a>
                         <a href="HanSolo.html">Han Solo</a>
@@ -28,32 +45,35 @@
                     </div>
             </div>
             <div class="dropdown">
-                <button class="dropbtn">planeten</button>
+                <a href="planeten.html" class="dropbtn">planeten</a>
                     <div class="dropdown-content">
-                        <a href="planeten.html#tableAlderaan">Alderaan</a>
-                        <a href="planeten.html#tableBalmorra">Balmorra</a>
-                        <a href="planeten.html#tableCoruscant">Coruscant</a>
-                        <a href="planeten.html#tableDagobah">Dagobah</a>
-                        <a href="planeten.html#tableTatooine">Tatooine</a>
+                        <a href="planetAlderaan.html">Alderaan</a>
+                        <a href="planetBalmorra.html">Balmorra</a>
+                        <a href="planetCoruscant.html">Coruscant</a>
+                        <a href="planetDagobah.html">Dagobah</a>
+                        <a href="planetTatooine.html">Tatooine</a>
                     </div>
             </div>   
             <div class="dropdown">
-                <button class="dropbtn">spezien</button>
+                <a href="spezies.html" class="dropbtn">spezien</a>
                     <div class="dropdown-content">
-                        <a href="spezies.html#tableHuman">Human</a>
-                        <a href="spezies.html#tableChiss">Chiss</a>
-                        <a href="spezies.html#tableCyborg">Cyborg</a>
-                        <a href="spezies.html#tableMiraluka">Miraluka</a>
-                        <a href="spezies.html#tableTwilek">Twilek</a>
-                        <a href="spezies.html#tableZabrak">Zabrak</a>
+                        <a href="spezHuman.html">Human</a>
+                        <a href="spezChiss.html">Chiss</a>
+                        <a href="spezCyborg.html">Cyborg</a>
+                        <a href="spezMiraluka.html">Miraluka</a>
+                        <a href="spezMirialan.html">Miraluka</a>
+                        <a href="spezTwilek.html">Twilek</a>
+                        <a href="spezZabrak.html">Zabrak</a>
                     </div>
             </div>
             <div class="dropdown">
-                <button class="dropbtn">raumschiffe</button>
+                <a href="raumschiffe.html" class="dropbtn">Raumschiffe</a>
                     <div class="dropdown-content">
-                        <a href="#">Link 1</a>
-                        <a href="#">Link 2</a>
-                        <a href="#">Link 3</a>
+                        <a href="MillenniumFalcon.html">Millennium Falcon</a>
+                        <a href="XWing.html">X-Wing</a>
+                        <a href="Executor.html">Executor</a>
+                        <a href="Sternzerstoerer.html">Sternenzerstörer</a>
+                        <a href="jedi.html">Jedi Abfangjäger</a>
                     </div>
             </div>
             <div class="dropdown">
@@ -61,109 +81,131 @@
             </div>
         </nav>
         <article>
-            <p class="zitat">„Du hast ja keine Vorstellung, welche Mühen ich auf mich genommen habe, um am Leben zu bleiben! Nur angespornt durch meinen abgrundtiefen Hass auf dich!“</br>— Darth Maul zu Obi Wan</p>
-            <div class="text">
-            </div>
-            <div class="text">
-                Die Zabrak, auch Iridonianer genannt, sind eine intelligente, humanoide Spezies, die auf dem Planeten Iridonia heimisch ist, ihre Hauptkolonie aber auf Dathomir hat und dort auch sehr häufig vorkommt, so auch im Orden der Nachtbrüder. Sie fallen besonders durch ihre gehörnten Köpfe auf und besitzen die Fähigkeit, größere Schmerzen zu ertragen, wenn dies nötig ist.
-            </div>
-            <div class="text">
-                Berühmte Vertreter dieser Spezies sind der Sith-Lord Darth Maul, sowie Sirak und die Jedi-Ritter Eeth Koth, Agen Kolar, Bao Dur, Bol Chatak und der Padawan Tyzen Xebec.
-            </div>
-            <div class="text">
-                <b>Beschreibung</b></br>
+            <p class="zitat">
+                „Du hast ja keine Vorstellung, welche Mühen ich auf mich genommen habe, um am Leben zu bleiben! Nur angespornt durch meinen abgrundtiefen Hass auf dich!“ — Darth Maul
+            </p>
+        <div class="text">
+            <h2>zabrak</h2><hr>
+        </div>
+        <div class="text">
+           Die Zabrak, auch Iridonianer genannt, sind eine intelligente, humanoide Spezies, die auf dem Planeten Iridonia heimisch ist, ihre Hauptkolonie aber auf Dathomir hat und dort auch sehr häufig vorkommt, so auch im Orden der Nachtbrüder. Sie fallen besonders durch ihre gehörnten Köpfe auf und besitzen die Fähigkeit, größere Schmerzen zu ertragen, wenn dies nötig ist.
+        </div>
+        <div class="text">
+            Berühmte Vertreter dieser Spezies sind der Sith-Lord Darth Maul, sowie Sirak und die Jedi-Ritter Eeth Koth, Agen Kolar, Bao Dur, Bol Chatak und der Padawan Tyzen Xebec
+        </div>
+        <div class="text">
+            <h2>Beschreibung</h2><hr>
             Zabrak ähneln Menschen, aber sie unterscheiden sich von ihnen durch ihre verkümmerten Hörner und charakteristischen Gesichtstätowierungen. Wenn ein Zabrak das Erwachsenenalter erreicht, bekommt er die Hörner, und die Tätowierungen erhalten sie in einem feierlichen Initiationsritus, der kurze Zeit danach durchgeführt wird. Die Tätowierungen geben an, welche Prüfungen ein Zabrak bestanden hat und wie erfahren er ist. Die Zabrak von Dathomir erhalten ihre Tätowierungen bereits kurz nach der Geburt, während ihr Körper in eine ölige Flüssigkeit getaucht wird, welche von den Dathomirhexen mit Geistichor getränkt wurde.
-            </div>
-            <div class="text">
-                Die Zabrak besitzen große Stärke, Ausdauer und eine gewisse Resistenz gegen jegliche Art von Schmerz sowie einen starken Willen, was beides auf ihre unwirtliche Heimatwelt Iridonia zurückzuführen ist. Ein Großteil der Planetenoberfläche ist mit ätzenden Säureseen bedeckt und regelmäßig fegen heftige Stürme mit einer Geschwindigkeit von bis zu 200 Kilometer pro Stunde durch die Landschaften. Treffen diese beiden Gefahren aufeinander und eine der Windböen nähert sich den Säureseen, entsteht ein lebensgefährlicher Geysir, der die Säure mehrere hundert Kilometer weit schleudert und ganze Zabrak-Siedlungen zerstört. Aus dieser Erfahrung heraus zogen sich die Zabrak in die Höhlen ihres Planeten zurück.
-            </div>
-            <div class="text">
-                Da die lebensfeindlichen Umstände auf ihrer Heimatwelt mit großem Leid und dem täglichen Kampf ums Überleben verbunden sind, zeigten sich die Zabrak außerordentlich daran interessiert, ihre Heimat zu verlassen. Durch diesen Willen waren die Zabrak einer der ersten Spezies, die die Raumfahrt für sich entdeckten. So entstanden innerhalb des Mittleren Randes insgesamt acht Zabrak-Kolonien, die sich auf verschiedenen Planeten verteilten. Viele Zabrak lebten jedoch weiterhin auf Iridonia und weigerten sich eine erträglichere Welt aufzusuchen, sodass sich die Zabrak in den nächsten Jahrtausenden in neuen verschiedenen Kolonien unabhängig voneinander weiterentwickelten. Mit der Zeit entstanden so insgesamt neun verschiedene Varianten von Zabrak, die sich durch die Anordnung ihrer Hörner, die Hautfarbe und ihr Verhalten unterscheiden.
-            </div>
-            <div class="text">
+        </div>
+        <div class="text">
+            Die Zabrak besitzen große Stärke, Ausdauer und eine gewisse Resistenz gegen jegliche Art von Schmerz sowie einen starken Willen, was beides auf ihre unwirtliche Heimatwelt Iridonia zurückzuführen ist. Ein Großteil der Planetenoberfläche ist mit ätzenden Säureseen bedeckt und regelmäßig fegen heftige Stürme mit einer Geschwindigkeit von bis zu 200 Kilometer pro Stunde durch die Landschaften. Treffen diese beiden Gefahren aufeinander und eine der Windböen nähert sich den Säureseen, entsteht ein lebensgefährlicher Geysir, der die Säure mehrere hundert Kilometer weit schleudert und ganze Zabrak-Siedlungen zerstört. Aus dieser Erfahrung heraus zogen sich die Zabrak in die Höhlen ihres Planeten zurück.
+        </div>
+        <div class="text">
+            Da die lebensfeindlichen Umstände auf ihrer Heimatwelt mit großem Leid und dem täglichen Kampf ums Überleben verbunden sind, zeigten sich die Zabrak außerordentlich daran interessiert, ihre Heimat zu verlassen. Durch diesen Willen waren die Zabrak einer der ersten Spezies, die die Raumfahrt für sich entdeckten. So entstanden innerhalb des Mittleren Randes insgesamt acht Zabrak-Kolonien, die sich auf verschiedenen Planeten verteilten. Viele Zabrak lebten jedoch weiterhin auf Iridonia und weigerten sich eine erträglichere Welt aufzusuchen, sodass sich die Zabrak in den nächsten Jahrtausenden in neuen verschiedenen Kolonien unabhängig voneinander weiterentwickelten. Mit der Zeit entstanden so insgesamt neun verschiedene Varianten von Zabrak, die sich durch die Anordnung ihrer Hörner, die Hautfarbe und ihr Verhalten unterscheiden.
+        </div>
+        <div class="text">
             Für ihre große Ausdauer und ihre enorme Zielstrebigkeit berühmt, haben die Zabrak einen Stolz und ein Selbstvertrauen entwickelt, das in manchen Fällen schon an Arroganz grenzt. Auch haben sie ein Streben nach Unabhängigkeit. Zwischen den verschiedenen Kolonien finden immer wieder Wettbewerbe statt, welche die Überlegenheit der einzelnen Kolonien demonstrieren sollen. Bei den Zabrak herrscht die Einstellung, dass nichts unerreichbar ist, wenn man sich nur fest genug anstrengt. Da sie außerdem ein zweites Herz haben, ist es nicht verwunderlich, dass man unter Gruppen von Kriegern und Abenteurern häufig auf Zabrak stößt.
-            </div>
-            <div class="text">
-             Die Zabrak von Iridonia gelten als kriegslüsterner als ihre Vettern von den Kolonialwelten, was wohl auf ihre lebensfeindliche Heimat zurückzuführen ist. Aus diesem Grund haben sie eine raffinierte Kampfkunst entwickelt, in der alle Jugendlichen pflichtgemäß unterwiesen werden. Ihnen wird in einem äußerst strikten Kampftraining Disziplin und Beharrlichkeit beigebracht. Daher zählen die Zabrak von Iridonia zu den besten Nahkämpfern und Waffenschmieden der Galaxis. Auch auf den Kolonialwelten hat die Kampfkunst einen hohen Stellenwert, doch die Kinder werden auch häufig in anderen Bereichen ausgebildet. So trifft man erfolgreiche Zabrak in allen möglichen Berufen, von der Medizin bis hin zur Unterhaltungsbranche. 
-            </div>
-            <div class="text">
-                <b>Geschichte</b></br>
+        </div>
+        <div class="text">
+            Die Zabrak von Iridonia gelten als kriegslüsterner als ihre Vettern von den Kolonialwelten, was wohl auf ihre lebensfeindliche Heimat zurückzuführen ist. Aus diesem Grund haben sie eine raffinierte Kampfkunst entwickelt, in der alle Jugendlichen pflichtgemäß unterwiesen werden. Ihnen wird in einem äußerst strikten Kampftraining Disziplin und Beharrlichkeit beigebracht. Daher zählen die Zabrak von Iridonia zu den besten Nahkämpfern und Waffenschmieden der Galaxis. Auch auf den Kolonialwelten hat die Kampfkunst einen hohen Stellenwert, doch die Kinder werden auch häufig in anderen Bereichen ausgebildet. So trifft man erfolgreiche Zabrak in allen möglichen Berufen, von der Medizin bis hin zur Unterhaltungsbranche. 
+        </div>
+        <div class="text">
+            <h2>Geschichte</h2><hr>
+        </div>
+        <div class="text">
             Als eine der frühesten raumfahrenden Spezies spielten die Zabrak stets eine bedeutende Rolle in den großen Ereignissen der Galaxis. Ähnlich den Menschen gründeten sie schon früh in ihrer Geschichte Kolonien auf anderen Planeten. Als sie der Galaktischen Republik beitraten, besaßen sie bereits acht Kolonien in fünf Systemen.
-            Während des Großen Galaktischen Krieges kämpften viele Zabrak für die Republik oder das Sith-Imperium, sowohl an der Front, als auch im Hintergrund.
+            Während des Großen Galaktischen Krieges kämpften viele Zabrak für die Republik oder das Sith-Imperium, sowohl an der Front, als auch im Hintergrund.  
+        </div>
+        <div class="text">
+            Vor langer Zeit knüpften die Sith Kontakte zum Hohen Rat von Iridonia und vereinbarten, dass die begabtesten Söldner der Zabrak sich in ihre Dienste stellten. Dieser Einfluss hielt auch nach der scheinbaren Vernichtung der Sith in der Siebten Schlacht von Ruusan an. Allerdings gab es auch viele Zabrak, die dem Alten Jedi-Orden angehörten, wie Eeth Koth und Agen Kolar. 
+        </div>
+        <div class="text">
+            Seit dieser Zeit gibt es keine „einheitliche“ Geschichte der Menschheit mehr, sondern zahlreiche weitere Geschichten aus allen Winkeln der Galaxis.   
+        </div>
+        <div class="text">
+            <h2>Rolle der zabrak</h2><hr>
+        </div>
+        <div class="text">
+            Nach der Ausrufung des Galaktischen Imperiums leisteten die willensstarken Zabrak den imperialen Besatzungstruppen auf ihren Welten erbitterten Widerstand, der nicht gebrochen werden konnte. Nach der Niederlage des Imperiums in der Schlacht von Endor vereinigten sich die verschiedenen Subspezies der Zabrak unter einer Regierung und traten der Neuen Republik bei.    
+        </div>
+    </article>
+    <aside class="side">
+        <table class="tabelle">
+            <tr>
+                <th colspan="2" class="Benennung swfont">zabrak</th>
+            </tr>
+            <tr>
+                <td colspan="2"><img src="./Images/Spezies/spezZabrak.jpg" alt="Zabrak" class="Tabellenbild"></td>
+            </tr>
+            <tr>
+                <th colspan="2" class="TabellenÜberschrift swfont">Beschreibung</th>
+            </tr>
+            <tr   class="wechselfarbe">
+                <td class="Tabelle1">Heimatwelt</td>
+                <td class="Tabelle2">Iridonia</td>
+            </tr>
+            <tr >
+                <td class="Tabelle1">Kolonien</td>
+                <td class="Tabelle2">Dathomir</td>
+            </tr>
+            <tr class="wechselfarbe">
+                <td class="Tabelle1">Merkmale</td>
+                <td class="Tabelle2">Hörner auf dem Kopf, Tättowierungen</td>
+            </tr>
+            <tr>
+                <td class="Tabelle1">Klasse</td>
+                <td class="Tabelle2">Hörner auf dem Kopf, Tättoowierungen</td>
+            </tr>
+            <tr  class="wechselfarbe">
+                <td class="Tabelle1">Intelligenz</td>
+                <td class="Tabelle2">Intelligent</td>
+            </tr>
+            <tr >
+                <td class="Tabelle1">Durchschnittliche Lebenserwartung</td>
+                <td class="Tabelle2">91+</td>
+            </tr>
+            <tr>
+                <td class="break"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <th colspan="2" class="TabellenÜberschrift swfont">Weitere Daten</th>
+            </tr>
+            <tr class="wechselfarbe">
+                <td class="Tabelle1">Durchschnittliche Größe</td>
+                <td class="Tabelle2">Knapp unter 1,80 Meter</td>
+            </tr>
+            <tr>
+                <td class="Tabelle1">Durchschnittliches Gewicht</td>
+                <td class="Tabelle2">75 Kilogramm</td>
+            </tr>
+            <tr class="wechselfarbe">
+                <td class="Tabelle1">Hautfarbe</td>
+                <td class="Tabelle2">Blass bis Dunkelbraun, Rot, Schwarz</td>
+            </tr>
+            <tr >
+                <td class="break"></td>
+                <td></td>
+            </tr>
+        </table>
+    </aside>
+        <footer>
+            <div>
+                <p class="swfont">
+                impressum: <br>
+                ctc-lohr <br>
+                89231 neu-ulm <br>
+                marlene-dietrich-straße 1 <br>
+                0731 984910
+                </p>
+                <div class="socials">
+                    <a href="https://www.instagram.com/starwars"><img class="socials" src="./Images/Socials/social_instagram.png" alt="Instagram Soziales Netwerkbild"></a>
+                    <a href="https://twitter.com/starwars"><img class="socials" src="./Images/Socials/social_twitter.png" alt="Instagram Soziales Netwerkbild"></a>
+                    <a href="https://www.reddit.com/r/StarWars/"><img class="socials" src="./Images/Socials/social_reddit.png" alt="Instagram Soziales Netwerkbild"></a>
+                    <a href="https://www.youtube.com/user/starwars"><img class="socials" src="./Images/Socials/social_youtube.png" alt="Instagram Soziales Netwerkbild"></a>
+                </div>
             </div>
-            <div class="text">
-             Vor langer Zeit knüpften die Sith Kontakte zum Hohen Rat von Iridonia und vereinbarten, dass die begabtesten Söldner der Zabrak sich in ihre Dienste stellten. Dieser Einfluss hielt auch nach der scheinbaren Vernichtung der Sith in der Siebten Schlacht von Ruusan an. Allerdings gab es auch viele Zabrak, die dem Alten Jedi-Orden angehörten, wie Eeth Koth und Agen Kolar. 
-            </div>
-            <div class="text">
-            Nach der Ausrufung des Galaktischen Imperiums leisteten die willensstarken Zabrak den imperialen Besatzungstruppen auf ihren Welten erbitterten Widerstand, der nicht gebrochen werden konnte. Nach der Niederlage des Imperiums in der Schlacht von Endor vereinigten sich die verschiedenen Subspezies der Zabrak unter einer Regierung und traten der Neuen Republik bei.  
-            </div>
-            <div class="text">
-                
-            </div>
-        </article>
-        <aside class="side">
-            <table class="tabelle">
-                <tr>
-                    <th colspan="2" class="Benennung swfont">Zabrak</th>
-                </tr>
-                <tr>
-                    <td colspan="2"><img id="spezFormat" src="spezies/spezZabrak.jpg" class="Tabellenbild"></td>
-                </tr>
-                <tr>
-                    <th colspan="2" class="TabellenÜberschrift swfont">Beschreibung</th>
-                </tr>
-                <tr class="wechselfarbe">
-                    <td class="Tabelle1">Heimatwelt</td>
-                    <td class="Tabelle2">Iridonia</td>
-                </tr>
-                <tr >
-                    <td class="Tabelle1">Kolonien</td>
-                    <td class="Tabelle2">Dathomir</td>
-                </tr>
-                <tr class="wechselfarbe">
-                    <td class="Tabelle1">Merkmale</td>
-                    <td class="Tabelle2">Hörner auf dem Kopf, Tättoowierungen</td>
-                </tr>
-                <tr  >
-                    <td class="Tabelle1">Klasse</td>
-                    <td class="Tabelle2">Humanoide</td>
-                </tr>
-                <tr class="wechselfarbe">
-                    <td class="Tabelle1">Intelligenz</td>
-                    <td class="Tabelle2">Intelligent</td>
-                </tr>
-                <tr >
-                    <td class="Tabelle1">Durchschnittliche Lebenserwartung</td>
-                    <td class="Tabelle2">91+</td>
-                </tr>
-                <tr class="wechselfarbe">
-                    <td>Abstand</td>
-                    <td>Abstand</td>
-                </tr>
-                
-                <tr>
-                    <th colspan="2" class="TabellenÜberschrift swfont">Weitere Daten</th>
-                </tr>
-                <tr class="wechselfarbe">
-                    <td class="Tabelle1">Durchschnittliche Größe</td>
-                    <td class="Tabelle2">Knapp unter 1,80 Meter</td>
-                </tr>
-                <tr>
-                    <td class="Tabelle1">Durchschnittliches Gewicht</td>
-                    <td class="Tabelle2">75 Kilogramm</td>
-                </tr>
-                <tr class="wechselfarbe">
-                    <td class="Tabelle1">Hautfarbe</td>
-                    <td class="Tabelle2">Blass bis Dunkelbraun, Rot, Schwarz</td>
-                </tr>
-            
-                <tr>
-                    <td>Abstand</td>
-                    <td>Abstand</td>
-                </tr>
-            </table>
-        </aside>
-
-           
+        </footer>
+        <script src="script.js"></script> 
     </body>
 </html>

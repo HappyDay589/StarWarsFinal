@@ -12,19 +12,19 @@ function myFunction() {
     const q1a4 = document.getElementById("q1a4").checked;
 
     if (q1a1==true) {
-        document.getElementById("Q1").style.backgroundColor = clrchecked;
+        document.getElementById("Q1").style.backgroundColor = clrwrong;
     }
     else{
         if (q1a2==true) {
-            document.getElementById("Q1").style.backgroundColor = clrchecked;
+            document.getElementById("Q1").style.backgroundColor = clrwrong;
         }
         else{
             if (q1a3==true) {
-                document.getElementById("Q1").style.backgroundColor = clrchecked;
+                document.getElementById("Q1").style.backgroundColor = clrright;
             }
             else{
                 if (q1a4==true) {
-                    document.getElementById("Q1").style.backgroundColor = clrchecked;
+                    document.getElementById("Q1").style.backgroundColor = clrwrong;
                 }
                 else{
                     document.getElementById("Q1").style.backgroundColor = clrunchecked;
@@ -39,19 +39,19 @@ function myFunction() {
     const q2a4 = document.getElementById("q2a4").checked;
     
     if (q2a1==true) {
-        document.getElementById("Q2").style.backgroundColor = clrchecked;
+        document.getElementById("Q2").style.backgroundColor = clrright;
     }
     else{
         if (q2a2==true) {
-            document.getElementById("Q2").style.backgroundColor = clrchecked;
+            document.getElementById("Q2").style.backgroundColor = clrwrong;
         }
         else{
             if (q2a3==true) {
-                document.getElementById("Q2").style.backgroundColor = clrchecked;
+                document.getElementById("Q2").style.backgroundColor = clrwrong;
             }
             else{
                 if (q2a4==true) {
-                    document.getElementById("Q2").style.backgroundColor = clrchecked;
+                    document.getElementById("Q2").style.backgroundColor = clrwrong;
                 }
                 else{
                     document.getElementById("Q2").style.backgroundColor = clrunchecked;

@@ -126,6 +126,7 @@ nav{
 .divq{
     border-style: solid;
     background-color: var(--main-color);
+    margin:10px;
 }
 .question{
     font-family: "starwars";
@@ -134,6 +135,7 @@ nav{
     font-family: "starwars";
     background-color: var(--main-color);
     width: 120px;
+    margin:10px;
 }
 .bdy{
     background-image: url("./Images/Backgrounds/bg_stars.jpg");
@@ -225,37 +227,37 @@ article {width: 50%; color: #FFFFFF;  display: inline-block; margin-right: 10%; 
 
 #tableHuman {
    width: 100%;
-    background-image: url(ProjektSW/spezies/spezHumanBG.jpg);
+    background-image: url(./Images/Spezies/spezHumanBG.jpg);
     background-size: cover;
      }
 #tableChiss {
    
-    background-image: url(ProjektSW/spezies/spezChissBG.jpg);width: 800px;height: 200px;
+    background-image: url(./Images/Spezies/spezChissBG.jpg);
     background-size: cover;
     }
 #tableCyborg {
     
-    background-image: url(ProjektSW/spezies/spezCyborgBG.jpg);width: 800px;height: 200px;
+    background-image: url(./Images/Spezies/spezCyborgBG.jpg);
     background-size: cover;
     }
 #tableMiraluka {
     
-    background-image: url(ProjektSW/spezies/spezMiralukaBG.png);width: 800px;height: 200px;
+    background-image: url(./Images/Spezies/spezMiralukaBG.png);
     background-size: cover;
     }
 #tableMirialan {
     
-    background-image: url(ProjektSW/spezies/spezMirilanBG.jpg);width: 800px;height: 200px;
+    background-image: url(./Images/Spezies/spezMirilanBG.jpg);
     background-size: cover;
     }
 #tableTwilek {
     
-    background-image: url(ProjektSW/spezies/spezTwilekBG.jpg);width: 800px;height: 200px;
+    background-image: url(./Images/Spezies/spezTwilekBG.jpg);
     background-size: cover;
     }
 #tableZabrak {
 
-    background-image: url(ProjektSW/spezies/spezZabrakBG.jpg);width: 800px;height: 200px;
+    background-image: url(./Images/Spezies/spezZabrakBG.jpg);
     background-size: cover; }
 /* ===== ===== TABELLEN ENDE */
 
