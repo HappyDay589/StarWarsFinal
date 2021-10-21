@@ -13,3 +13,9 @@ function carousel() {
     x[slideIndex-1].style.display = "block"; 
     setTimeout(carousel, 4000); // Change image every 4 seconds
 }
+function mouseoverevent() {
+  var all = document.getElementsByClassName('dropbtn');
+  for (var i = 0; i < all.length; i++) {
+  all[i].style.color = 'red';
+}
+}
