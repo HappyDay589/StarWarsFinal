@@ -1,7 +1,6 @@
 var bgclr="#FFE81F";
 var slideIndex = 0;
 carousel();
-
 function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
@@ -13,9 +12,7 @@ function carousel() {
     x[slideIndex-1].style.display = "block"; 
     setTimeout(carousel, 4000); // Change image every 4 seconds
 }
-function mouseoverevent() {
-  var all = document.getElementsByClassName('dropbtn');
+var all = document.getElementsByClassName('dropbtn');
   for (var i = 0; i < all.length; i++) {
-  all[i].style.color = 'red';
-}
+    all[i].addEventListener("mouseover", mouseoverevent(all[i]));
 }
