@@ -386,7 +386,7 @@ function myFunction() {
     // Question 15
     const q15a1 = document.getElementById("q15a1").checked;
     const q15a2 = document.getElementById("q15a2").checked;
-    const q15a3 = document.getElementById("q154a3").checked;
+    const q15a3 = document.getElementById("q15a3").checked;
     const q15a4 = document.getElementById("q15a4").checked;
     
     if (q15a1==true) {
@@ -413,7 +413,7 @@ function myFunction() {
     // Question 16
     const q16a1 = document.getElementById("q16a1").checked;
     const q16a2 = document.getElementById("q16a2").checked;
-    const q16a3 = document.getElementById("q164a3").checked;
+    const q16a3 = document.getElementById("q16a3").checked;
     const q16a4 = document.getElementById("q16a4").checked;
     
     if (q16a1==true) {
