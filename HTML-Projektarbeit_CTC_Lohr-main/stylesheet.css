@@ -259,5 +259,31 @@ article {width: 50%; color: #FFFFFF;  display: inline-block; margin-right: 10%; 
 
     background-image: url(./Images/Spezies/spezZabrakBG.jpg);
     background-size: cover; }
+/* Hover Befehl */
+#tableAlderaan:Hover {
+    filter: brightness(180%); }
+#tableBalmorra:Hover {
+    filter: brightness(180%); }
+#tableCoruscant:Hover {
+    filter: brightness(180%); }
+#tableDagobah:Hover {
+    filter: brightness(180%); }
+#tableTatooine:Hover {
+    filter: brightness(180%); }
+
+#tableHuman:Hover {
+    filter: brightness(180%); }
+#tableChiss:Hover {
+    filter: brightness(180%); }
+#tableCyborg:Hover {
+    filter: brightness(180%); }
+#tableMiraluka:Hover {
+    filter: brightness(180%); }
+#tableMirialan:Hover {
+    filter: brightness(180%); }
+#tableTwilek:Hover {
+    filter: brightness(180%); }
+#tableZabrak:Hover {
+    filter: brightness(180%); }
 /* ===== ===== TABELLEN ENDE */
 
